@@ -1,0 +1,88 @@
+body
+{
+	background:#232323;
+	color:black;
+	margin: 0;
+	font-family: "Avenir";
+	text-transform: uppercase;
+
+}
+
+#container
+{
+	max-width: 600px;
+	/*text-align: center;*/
+	margin: 0 auto;
+}
+.square
+{
+	width:30%;
+	background: rgb(100,150,230);
+	padding-bottom: 30%;
+	float:left;
+	margin:1.66%;
+	border-radius: 15%;
+	transition: background-color 1.5s;
+
+
+}
+h1
+{
+	width: 100%;
+	text-align: center;
+	color:white;
+	background:steelblue;
+	margin: 0;
+	font-weight: normal;
+	line-height: 1.1;
+	padding: 20px 0;
+	transition: all 0.8s;
+}
+.nav
+{
+	background:white;
+	/*margin: 0 auto;*/
+	color: black;
+	height: 30px;
+	text-align: center;
+
+
+}
+.some
+{
+	background:none;
+	border:none;
+	text-transform: uppercase;
+	height: 100%;
+}
+.some:hover
+{
+	background:steelblue;
+	color:white;
+
+}
+#display
+{
+	font-size: 200%;
+}
+.sometonew
+{
+	background:steelblue;
+	color: white;
+}
+#message
+{
+	display: inline-block;
+	width: 20%;
+}
+button
+{
+	 text-transform: uppercase;
+	 font-weight: 700;
+	 color: steelblue;
+	 letter-spacing: 1px;
+	 font-size: inherit;
+	 transition: all 1s;
+	 outline: none;
+
+}
